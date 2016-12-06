@@ -2,6 +2,9 @@ package Calculator;
 
 import Person.Person;
 
+import java.lang.reflect.Array;
+import java.util.*;
+
 public class TGC implements Calculator {
 
     private IMC imc;
