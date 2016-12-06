@@ -1,5 +1,7 @@
 package Calculator;
 
+import Person.Person;
+
 interface Calculator {
-    public double calculate(double weight, double tall);
+    public double calculate(Person person);
 }

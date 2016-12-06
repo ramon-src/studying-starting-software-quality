@@ -22,9 +22,20 @@ public class Person {
     public String getGenre() {
         return genre.name();
     }
+    public int getGenreNumber() {
+        return genre.ordinal();
+    }
 
     public void setGenre(Genre genre) {
         this.genre = genre;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public double getTall() {
